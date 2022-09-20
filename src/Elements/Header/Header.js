@@ -1,18 +1,14 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styles from "./Header.module.css";
 import {Link} from "react-router-dom";
-import burgerMenu from "../../DataBase/tools_Photos/burger_menu.jpg";
+import burgerMenu from "../../DataBase/tools_Photos/wbm.webp";
 import {useDispatch, useSelector} from "react-redux";
 import {toggleBurgerMenu} from "../../redux/action-creators/burgerMenu";
 
 
 const Header = () => {
 
-    // const [activeBurger, setActiveBurger] = useState(false);
 
-    // const changeBurger = () => {
-    //     setActiveBurger(prevState => !prevState);
-    // }
     const {active} = useSelector( ({active: {active}}) => ({active}) );
     const dispatch = useDispatch();
 
@@ -30,7 +26,9 @@ const Header = () => {
                         className={styles.burgerMenu}
                         onClick={() => setActiveBurger()}
                     >
-                        <img src={burgerMenu} alt={'menu'} width={40}/>
+                        {/*&#9776;*/}
+                        &#x2630;
+                        {/*<img src={burgerMenu} alt={'menu'} width={40}/>*/}
                     </div>
 
                     <div>
@@ -40,26 +38,22 @@ const Header = () => {
                                 <div className={styles.burgerListActive}>
                                     <div className={styles.burgerLinks}>
                                         <Link className={styles.burgerLink} to={'pizza'}
-                                              // onClick={() => setActiveBurger(prev => !prev)}
-                                              onClick={() => setActiveBurger}
+                                              onClick={() => setActiveBurger()}
                                         >
                                             Піцца
                                         </Link>
                                         <Link className={styles.burgerLink} to={'drinks'}
-                                              // onClick={() => setActiveBurger(prev => !prev)}
-                                              onClick={() => setActiveBurger}
+                                              onClick={() => setActiveBurger()}
                                         >
                                             Напої
                                         </Link>
                                         <Link className={styles.burgerLink} to={'about-us'}
-                                              // onClick={() => setActiveBurger(prev => !prev)}
-                                              onClick={() => setActiveBurger}
+                                              onClick={() => setActiveBurger()}
                                         >
                                             Про нас
                                         </Link>
                                         <Link className={styles.burgerLink} to={'sales'}
-                                              // onClick={() => setActiveBurger(prev => !prev)}
-                                              onClick={() => setActiveBurger}
+                                              onClick={() => setActiveBurger()}
                                         >
                                             Акції
                                         </Link>

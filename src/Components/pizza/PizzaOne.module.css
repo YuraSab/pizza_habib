@@ -1,0 +1,22 @@
+.onePizza{
+    width: 400px;
+    height: 400px;
+    background: black;
+    color: black;
+    display: grid;
+    grid-template-areas:
+    "image description";
+    grid-template-columns: 200px 200px;
+    gap: 40px;
+}
+
+.image{
+    grid-area: image;
+    height: 200px;
+}
+
+.description{
+    grid-area: description;
+    color: white;
+
+}

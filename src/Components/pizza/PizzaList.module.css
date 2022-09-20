@@ -1,0 +1,8 @@
+.listOfPizza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #1E1E1E;
+    gap: 40px;
+}
