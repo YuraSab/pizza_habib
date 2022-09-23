@@ -53,7 +53,7 @@
 
 
 @media screen and (max-width: 950px) {
-    .main{
+    .main {
         height: 150%;
         grid-template-areas:
         "schedule contacts"
@@ -62,6 +62,7 @@
         grid-template-columns: 50% 50%;
         justify-content: space-around;
     }
+
     .info {
         font-size: 20px;
         color: black;
@@ -72,7 +73,7 @@
 }
 
 @media screen and (max-width: 550px) {
-    .main{
+    .main {
         height: 250%;
         grid-template-areas:
         "schedule"
@@ -85,41 +86,48 @@
         align-items: center;
     }
 
-    .info{
+    .info {
         /*width: 100%;*/
         align-self: center;
         justify-self: center;
         font-size: 20px;
         color: black;
     }
-    .schedule{
+
+    .schedule {
         width: 40%;
+        font-size: 18px;
     }
-    .contacts{
+
+    .contacts {
         width: 40%;
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .schedule{
+    .schedule {
         width: 50%;
     }
-    .contacts{
+
+    .contacts {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .main{
+    .main {
         height: 250%;
     }
 }
 
 @media screen and (max-width: 380px) {
-    .schedule{
+    .schedule {
         width: 60%;
     }
-    .contacts{
+
+    .contacts {
         width: 60%;
+
     }
 }

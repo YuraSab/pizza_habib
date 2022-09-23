@@ -98,3 +98,21 @@
         display: none;
     }
 }
+
+
+@media screen and (max-width: 700px) {
+    .cartHeader{
+        width: 60px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .cartHeader{
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cartHeader{
+        width: 40px;
+    }
+}

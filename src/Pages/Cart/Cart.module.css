@@ -85,3 +85,61 @@
 .noActive:hover {
     background: green;
 }
+
+
+@media screen and (max-width: 1200px){
+    .cartItem {
+        width: 30%;
+        border-radius: 5px;
+        margin: 5% 35%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .cartItem {
+        width: 40%;
+        border-radius: 5px;
+        margin: 5% 20%;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .cartItem {
+        width: 50%;
+        margin: 5% 25%;
+    }
+    .title{
+        font-size: 18px;
+    }
+
+    .price{
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .title{
+        padding-right: 5%;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .title{
+        padding-right: 7%;
+    }
+    .title{
+        font-size: 15px;
+    }
+
+    .price{
+        font-size: 15px;
+    }
+    .cartItem {
+        width: 50%;
+        margin: 10% 25%;
+    }
+}
