@@ -1,0 +1,26 @@
+.backImage{
+    /*width: 30%;*/
+    width: 30vw;
+    padding: 5vw 0;
+    border-radius: 20px;
+
+}
+
+
+.firstBlock{
+    width: 100%;
+    /*min-height: 90vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1E1E1E;
+
+}
+
+
+@media screen and (max-width: 400px){
+    .backImage{
+        border-radius: 10px;
+
+    }
+}

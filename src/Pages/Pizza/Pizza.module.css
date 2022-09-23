@@ -16,3 +16,11 @@
     background: #1E1E1E;
 
 }
+
+
+@media screen and (max-width: 400px){
+    .backImage{
+        border-radius: 10px;
+
+    }
+}

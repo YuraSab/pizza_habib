@@ -5,7 +5,7 @@
     "main"
     "footer";
 
-    grid-template-rows: 10vh 1fr 125px;
+    grid-template-rows: 10vh 1fr 20vh;
 }
 
 

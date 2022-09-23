@@ -5,6 +5,7 @@ import styles from "./MainStructureOverlay.module.css";
 import MainOverlay from "../Main_Overlay/MainOverlay";
 
 const MainStructureOverlay = () => {
+
     return (
         <div className={styles.main}>
             <header>

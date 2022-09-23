@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./Header.module.css";
 import {Link} from "react-router-dom";
-import burgerMenu from "../../DataBase/tools_Photos/wbm.webp";
+// import burgerMenu from "../../DataBase/tools_Photos/wbm.webp";
 import {useDispatch, useSelector} from "react-redux";
 import {toggleBurgerMenu} from "../../redux/action-creators/burgerMenu";
 
@@ -9,7 +9,7 @@ import {toggleBurgerMenu} from "../../redux/action-creators/burgerMenu";
 const Header = () => {
 
 
-    const {active} = useSelector( ({active: {active}}) => ({active}) );
+    const {active} = useSelector(({active: {active}}) => ({active}));
     const dispatch = useDispatch();
 
     const setActiveBurger = () => {
@@ -34,8 +34,10 @@ const Header = () => {
                     <div>
                         {
                             // activeBurger ? (
-                                active ? (
-                                <div className={styles.burgerListActive}>
+                            active ? (
+                                <div
+                                    className={styles.burgerListActive}
+                                >
                                     <div className={styles.burgerLinks}>
                                         <Link className={styles.burgerLink} to={'pizza'}
                                               onClick={() => setActiveBurger()}
@@ -57,6 +59,7 @@ const Header = () => {
                                         >
                                             Акції
                                         </Link>
+
                                     </div>
                                 </div>
                             ) : null
@@ -85,7 +88,6 @@ const Header = () => {
             {/*    /!*Cart*!/*/}
             {/*    {activeBurger.toString()}*/}
             {/*</div>*/}
-
 
 
         </div>

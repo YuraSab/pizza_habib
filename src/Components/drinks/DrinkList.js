@@ -1,20 +1,17 @@
 import React from 'react';
-import {pizzas} from "../../DataBase/pizza_DB/pizzaDB";
-import PizzaOne from "./PizzaOne";
-import styles from "./PizzaList.module.css";
+import styles from "./DrinkList.module.css";
+import {drinks} from "../../DataBase/drinks_DB/drinksDB";
+import DrinkOne from "./DrinkOne";
 
-const PizzaList = () => {
-
-
-
+const DrinkList = () => {
     return (
         <div className={styles.listOfPizza}>
             {
-                pizzas.map(el => {
+                drinks.map(el => {
 
                     // console.log(el);
                     return(
-                        <PizzaOne
+                        <DrinkOne
                             key={el.id}
                             item={el}
                         />
@@ -25,4 +22,4 @@ const PizzaList = () => {
     );
 };
 
-export default PizzaList;
+export default DrinkList;

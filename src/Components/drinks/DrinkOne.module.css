@@ -50,7 +50,8 @@
 }
 
 .pizzaImg{
-    width: 300px;
+    max-width: 300px;
+    max-height: 220px;
     /*padding: 10px 0;*/
     border-radius: 4px;
 }
@@ -77,7 +78,7 @@
         border-radius: 7px;
     }
     .image{
-        height: 170px;
+        max-height: 170px;
     }
     .description{
         grid-area: description;
@@ -100,7 +101,8 @@
         text-align: end;
     }
     .pizzaImg{
-        width: 265px;
+        max-width: 265px;
+        max-height: 170px;
         border-radius: 4px;
     }
 }
