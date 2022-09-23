@@ -1,0 +1,87 @@
+.main{
+    min-height: 70vh;
+    background: #1E1E1E;
+    padding: 2%;
+}
+
+.blank{
+    background: white;
+    margin: 3.5%;
+    border-radius: 5px;
+}
+
+.noSelected{
+    /*min-height: 70vh;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-self: center;*/
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-areas:
+    "photo title price cart";
+    grid-template-columns: 35% 35% 15% 15%;
+    grid-template-rows: 1fr;
+
+    justify-content: start;
+    align-items: start;
+    border-bottom: 4px #1E1E1E solid;
+}
+
+.photo{
+    grid-area: photo;
+    justify-self: center;
+    align-self: center;
+}
+
+.title{
+    grid-area: title;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.price{
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 22px;
+    grid-area: price;
+}
+
+.cart{
+    padding-top: 5%;
+}
+
+
+.pizzaImg{
+    width: 80%;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.cartItem {
+    width: 24%;
+    border-radius: 5px;
+    margin: 5% 38%;
+}
+
+
+.active {
+    background: green;
+}
+.active:hover {
+    background: red;
+}
+.noActive {
+    background: none;
+}
+.noActive:hover {
+    background: green;
+}

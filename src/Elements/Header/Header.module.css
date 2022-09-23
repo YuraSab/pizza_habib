@@ -26,10 +26,14 @@
 
 
 .tools{
-    padding-right: 50px;
+    padding-right: 5%;
     width: 200px;
-    background: white;
-    color: black;
+    /*background: white;*/
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 .links{
@@ -76,6 +80,10 @@
     font-size: 22px;
     font-weight: bold;
     padding-bottom: 20px;
+}
+
+.cartHeader{
+    width: 75px;
 }
 
 @media screen and (max-width: 950px){

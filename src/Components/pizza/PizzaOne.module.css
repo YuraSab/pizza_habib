@@ -1,4 +1,4 @@
-.onePizza{
+.onePizza {
     width: 400px;
     height: 400px;
     /*background: black;*/
@@ -16,17 +16,18 @@
     border-radius: 7px;
 }
 
-.onePizza:hover{
+.onePizza:hover {
     background: grey;
 }
 
-.image{
+.image {
     grid-area: image;
     height: 200px;
 
 }
 
-.description{
+
+.description {
     grid-area: description;
     color: white;
     font-size: 20px;
@@ -34,14 +35,14 @@
 }
 
 
-.title{
+.title {
     color: white;
     font-size: 30px;
     padding: 4px 0;
     grid-area: title;
 }
 
-.price{
+.price {
     color: white;
     font-size: 25px;
     padding: 2px 4px;
@@ -49,16 +50,36 @@
 
 }
 
-.pizzaImg{
+.pizzaImg {
     width: 300px;
     /*padding: 10px 0;*/
     border-radius: 4px;
 }
 
+.cartItem {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 5px;
+}
 
 
-@media screen and (max-width: 450px){
-    .onePizza{
+.active {
+    background: green;
+}
+.active:hover {
+    background: red;
+}
+.noActive {
+    background: none;
+}
+.noActive:hover {
+    background: green;
+}
+
+
+@media screen and (max-width: 450px) {
+    .onePizza {
         /* 0.875 - proportion */
         width: 350px;
         height: 350px;
@@ -76,30 +97,34 @@
         padding: 5px;
         border-radius: 7px;
     }
-    .image{
+
+    .image {
         height: 170px;
     }
-    .description{
+
+    .description {
         grid-area: description;
         color: white;
         font-size: 18px;
 
     }
 
-    .title{
+    .title {
         color: white;
         font-size: 25px;
         padding: 3px 0;
         grid-area: title;
     }
-    .price{
+
+    .price {
         color: white;
         font-size: 22px;
         padding: 2px 6px;
         grid-area: price;
         text-align: end;
     }
-    .pizzaImg{
+
+    .pizzaImg {
         width: 265px;
         border-radius: 4px;
     }
@@ -107,7 +132,7 @@
 
 
 @media screen and (max-width: 390px) {
-    .onePizza{
+    .onePizza {
         /* 0.875 - proportion */
         width: 300px;
         height: 300px;
@@ -125,31 +150,37 @@
         padding: 5px;
         border-radius: 7px;
     }
-    .image{
+
+    .image {
         height: 150px;
     }
-    .description{
+
+    .description {
         grid-area: description;
         color: white;
         font-size: 16px;
     }
-    .title{
+
+    .title {
         color: white;
         font-size: 22px;
         padding: 2px 0;
         grid-area: title;
     }
-    .price{
+
+    .price {
         color: white;
         font-size: 20px;
         padding: 1px 4px;
         grid-area: price;
         text-align: end;
     }
-    .pizzaImg{
+
+    .pizzaImg {
         width: 240px;
         border-radius: 3px;
     }
+
     /*
 
 

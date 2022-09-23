@@ -5,6 +5,7 @@ import Pizza from "../../Pages/Pizza/Pizza";
 import Drinks from "../../Pages/Drinks/Drinks";
 import AboutUs from "../../Pages/About_Us/AboutUs";
 import Sales from "../../Pages/Sales/Sales";
+import Cart from "../../Pages/Cart/Cart";
 
 const MainOverlay = () => {
     return (
@@ -16,6 +17,7 @@ const MainOverlay = () => {
                     <Route path={'drinks'} element={<Drinks/>}/>
                     <Route path={'about-us'} element={<AboutUs/>}/>
                     <Route path={'sales'} element={<Sales/>}/>
+                    <Route path={'cart'} element={<Cart/>}/>
                 </Route>
             </Routes>
 

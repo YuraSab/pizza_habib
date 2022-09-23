@@ -4,17 +4,18 @@ import {Link} from "react-router-dom";
 // import burgerMenu from "../../DataBase/tools_Photos/wbm.webp";
 import {useDispatch, useSelector} from "react-redux";
 import {toggleBurgerMenu} from "../../redux/action-creators/burgerMenu";
-
+import cartHeader from "../../DataBase/icons/header-cart.png";
 
 const Header = () => {
 
 
-    const {active} = useSelector(({active: {active}}) => ({active}));
+    const {active, cart} = useSelector(({active: {active}, cart: {cart}}) => ({active, cart}));
     const dispatch = useDispatch();
 
     const setActiveBurger = () => {
         dispatch(toggleBurgerMenu());
     }
+    // console.log(cart.length)
 
     return (
         <div className={styles.main}>
@@ -84,11 +85,17 @@ const Header = () => {
                 </div>
 
             </div>
-            {/*<div className={styles.tools}>*/}
-            {/*    /!*Cart*!/*/}
-            {/*    {activeBurger.toString()}*/}
-            {/*</div>*/}
 
+            <div className={styles.tools}>
+                <Link to={'cart'}>
+                    <img src={cartHeader} alt={"cart"} className={styles.cartHeader}/>
+                </Link>
+                <div>
+                    {cart.length}
+                </div>
+
+                {/*{activeBurger.toString()}*/}
+            </div>
 
         </div>
     );

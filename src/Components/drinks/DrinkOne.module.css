@@ -56,7 +56,26 @@
     border-radius: 4px;
 }
 
+.cartItem {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 5px;
+}
 
+
+.active {
+    background: green;
+}
+.active:hover {
+    background: red;
+}
+.noActive {
+    background: none;
+}
+.noActive:hover {
+    background: green;
+}
 
 @media screen and (max-width: 450px){
     .onePizza{
