@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pizza_habib/static/css/main.c46d4d0c.css",
+    "main.js": "/pizza_habib/static/js/main.e3a902aa.js",
+    "static/js/787.438bdcf6.chunk.js": "/pizza_habib/static/js/787.438bdcf6.chunk.js",
+    "static/media/aboutUs.png": "/pizza_habib/static/media/aboutUs.b5c3c0b840c69ee3ab70.png",
+    "static/media/3.jpg": "/pizza_habib/static/media/3.297b1a154632e9e719fe.jpg",
+    "static/media/1.jpg": "/pizza_habib/static/media/1.6e9f44fff150c196c156.jpg",
+    "static/media/2.jpg": "/pizza_habib/static/media/2.d76be75e271fc96279bc.jpg",
+    "static/media/instagram.png": "/pizza_habib/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/twitter.png": "/pizza_habib/static/media/twitter.c6e48e60f856cb822273.png",
+    "static/media/telegram.png": "/pizza_habib/static/media/telegram.e9722f26cc228e817986.png",
+    "static/media/header-cart.png": "/pizza_habib/static/media/header-cart.f13a145246783db93c48.png",
+    "static/media/cartItem.png": "/pizza_habib/static/media/cartItem.9294e7d917d57a510c8c.png",
+    "static/media/logotip.jpg": "/pizza_habib/static/media/logotip.8eabc5e0296f2a78d7e7.jpg",
+    "index.html": "/pizza_habib/index.html",
+    "main.c46d4d0c.css.map": "/pizza_habib/static/css/main.c46d4d0c.css.map",
+    "main.e3a902aa.js.map": "/pizza_habib/static/js/main.e3a902aa.js.map",
+    "787.438bdcf6.chunk.js.map": "/pizza_habib/static/js/787.438bdcf6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c46d4d0c.css",
+    "static/js/main.e3a902aa.js"
+  ]
+}
